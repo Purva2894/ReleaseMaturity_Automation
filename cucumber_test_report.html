@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automated Test Report</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f4f4; padding: 20px; }
+        .container { background: white; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        h1 { color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
+        th, td { padding: 10px; text-align: left; border-bottom: 1px solid #ddd; }
+        th { background: #333; color: white; }
+        .pass { color: green; font-weight: bold; }
+        .fail { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Test Report</h1>
+        <p><strong>Test Execution Date:</strong> 2025-02-19</p>
+        <p><strong>Browser:</strong> Google Chrome</p>
+        <p><strong>Total Test Scenarios:</strong> 1</p>
+        <p><strong>Passed:</strong> 1</p>
+        <p><strong>Failed:</strong> 0</p>
+
+        <h2>Test Execution Details</h2>
+        <table>
+            <tr>
+                <th>Scenario</th>
+                <th>Step</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td rowspan="4">Login Functionality</td>
+                <td>Given the user is on the login page</td>
+                <td class="pass">✔ Passed</td>
+            </tr>
+            <tr>
+                <td>When the user enters valid credentials</td>
+                <td class="pass">✔ Passed</td>
+            </tr>
+            <tr>
+                <td>And clicks on the login button</td>
+                <td class="pass">✔ Passed</td>
+            </tr>
+            <tr>
+                <td>Then the user should be redirected to the dashboard</td>
+                <td class="pass">✔ Passed</td>
+            </tr>
+        </table>
+
+        <h2>Execution Summary</h2>
+        <p><strong>Total Execution Time:</strong> 3.2 seconds</p>
+        <p><strong>Test Environment:</strong> Localhost (http://localhost:3000/)</p>
+    </div>
+</body>
+</html>
